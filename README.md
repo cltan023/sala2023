@@ -1,7 +1,7 @@
 # sala2023
 SALA: A Novel Optimizer for Accerlating Convergence and Improving Generalization
 
-Tested Environment: Ubuntu 22.04, GPU 4090, Pytorch 1.12, CUDA 11.6 
+Tested Environment: Ubuntu 22.04, GeForce RTX 4090, Pytorch 1.12, CUDA 11.6 
 
 Requirement: wandb, prefetch_generator, colorama, tqdm  
 Also can create a new conda environment with the configuration file environment.yml
