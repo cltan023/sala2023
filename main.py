@@ -54,7 +54,7 @@ def main():
     parser = argparse.ArgumentParser(description='Accerlating the convergence of the optimization process')
     
     # data configuration
-    parser.add_argument('--data_dir', default='../public_dataset', type=str)
+    parser.add_argument('--data_dir', default='./public_dataset', type=str)
     parser.add_argument('--data_name', default='CIFAR-100', choices=['CIFAR-10', 'CIFAR-100', 'ImageNet-1k'])
     parser.add_argument('--num_classes', default=100, type=int)
     parser.add_argument('--batch_size_train', default=128, type=int)
