@@ -22,7 +22,7 @@ config = {
         'alpha': {'value': 0.8},
         'k': {'value': 5},
         # 'sala_rho': {'values': [0.1, 0.2]},
-        'learning_rate': {'values': [0.05, 0.1]},
+        'learning_rate': {'values': [0.01, 0.05, 0.1]},
         'batch_size_train': {'value': 128},
         'weight_decay': {'values': [5.0e-4, 1.0e-3, 2.0e-3]}
      }
