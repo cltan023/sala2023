@@ -55,3 +55,4 @@ To use another GPU on your server, just open another terminal, and run for examp
 export CUDA_VISIBLE_DEVICES=1
 wandb agent $your_wandb_username/$project_name/$wandb_id
 ```
+Please do not hesitate in contacting me should you have any questions about the implementations (email: cltan023@outlook.com).
