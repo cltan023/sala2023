@@ -12,6 +12,7 @@ from opt import SALA
 
 # define a base optimizer as in standard training  
 base_optimizer = torch.optim.SGD(net.parameters(), lr=0.05)
+# by default, we set k=2, alpha=0.5, rho=0.2
 optimizer = SALA(base_optimizer, sala_k=k, sala_alpha=alpha, sala_rho=rho)
 
 for i in range(num_epochs):
