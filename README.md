@@ -50,7 +50,7 @@ Then, you can run a sweep by the following command
 export CUDA_VISIBLE_DEVICES=0
 wandb agent $your_wandb_username/$project_name/$wandb_id
 ```
-To use another GPU on your server, just open another terminal, and run for example
+To use another GPU on the same server or any other server, just open another terminal, and run for example
 ```
 export CUDA_VISIBLE_DEVICES=1
 wandb agent $your_wandb_username/$project_name/$wandb_id
