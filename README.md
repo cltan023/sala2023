@@ -56,4 +56,4 @@ To use another GPU on the same server or any other server, just open another ter
 export CUDA_VISIBLE_DEVICES=1
 wandb agent $your_wandb_username/$project_name/$wandb_id
 ```
-Please do not hesitate in contacting me should you have any questions about the implementations (email: cltan023@outlook.com).
+Please do not hesitate in contacting me should you have any questions about the implementations (email: cltan023 at outlook.com).
